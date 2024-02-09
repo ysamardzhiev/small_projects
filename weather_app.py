@@ -17,5 +17,5 @@ feels_like_temp = weather_data.json()['main']['feels_like']
 country = weather_data.json()['sys']['country']
 
 
-print(f'The weather in {user_input}, {country} is: {weather}.')
+print(f'The weather in {user_input.capitalize()}, {country} is: {weather}.')
 print(f'The temperature is {main_temp}°C, feels like {feels_like_temp}°C.')
